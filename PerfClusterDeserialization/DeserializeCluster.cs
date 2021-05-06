@@ -12,7 +12,7 @@ namespace PerfClusterDeserialization
     [RPlotExporter]
     public class DeserializeCluster
     {
-        [Params(10, 100, 1000, 10000)] public int N;
+        [Params(10, 100, 1000, 2000, 5000, 7000, 10000)] public int N;
         private string twoListFileName;
         private string oneListfileName;
 
